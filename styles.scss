@@ -2,6 +2,10 @@ $primary: #5265E1;
 $secondary: #FA5959;
 $gray: #e4e3e3;
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
 font-size: 14px; 
 background-color: white;
@@ -125,6 +129,12 @@ border: 2px solid rgb(78, 78, 78);
   background: #fff;
   color: $primary;
   border: 2px solid $primary;
+}
+
+.row-full-width {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .txtfaq:hover {
