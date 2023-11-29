@@ -1,0 +1,134 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$gray: #e4e3e3;
+
+.navbar {
+font-size: 14px; 
+background-color: white;
+padding-top: 30px;
+}
+
+#btnmen:hover {
+  color: $secondary;
+}
+
+#btn-login {
+  color :white;
+  background:$secondary;
+  border: 2px solid $secondary;
+}
+
+#btn-login:hover {
+  color: rgb(245, 70, 70);
+  background: white;
+  border: 2px solid $secondary;
+}
+
+#btnfox {
+color:rgb(56, 56, 56);
+background:rgb(228, 228, 228);
+border-radius: 3px;
+}
+
+#btnfox:hover {
+color:rgb(78, 78, 78);
+background: white;
+border: 2px solid rgb(78, 78, 78);
+}
+
+.imagee {
+  position: relative;
+}
+
+.imagee::after {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background-color: $primary;
+  height: 70%;
+  width: 90%;
+  z-index: -1;
+  border-bottom-left-radius: 8rem;
+  border-bottom-left-radius: 8rem;;
+}
+
+#feattt:hover {
+  color: $secondary;
+}
+
+.imageee {
+  position: relative;
+}
+
+.imageee::after {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  background-color: $primary;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-bottom-right-radius: 8rem;
+  border-bottom-right-radius: 8rem;;
+}
+
+.crd1 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.crd2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.crd3 {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+#btnchrome {
+  background: $primary;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#btnchrome:hover {
+  background: #fff;
+  color: $primary;
+  border: 2px solid $primary;
+}
+
+#btnfirefox {
+  background: $primary;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#btnfirefox:hover {
+  background: #fff;
+  color: $primary;
+  border: 2px solid $primary;
+}
+
+#btnopera {
+  background: $primary;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#btnopera:hover {
+  background: #fff;
+  color: $primary;
+  border: 2px solid $primary;
+}
+
+.txtfaq:hover {
+  color: $secondary;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
